@@ -9,7 +9,7 @@ import com.example.listen.ui.TracksList
 @Composable
 fun AppNavigator() {
     val navController = rememberNavController();
-    NavHost(navController = navController, startDestination = "toptracks") {
-        composable("toptracks") { TracksList() }
+    NavHost(navController = navController, startDestination = "tracks") {
+        composable("tracks") { TracksList() }
     }
 }
